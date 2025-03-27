@@ -7,9 +7,9 @@
     {% include 'global/partials/_header.html' %}
 
     <main class="content">
-      {% block content %}
-
-      {% endblock %}
+      {% block content %}{% endblock %}
+      {% include 'global/partials/_pagination.html' %}
     </main>
+    
   </body>
 </html>
